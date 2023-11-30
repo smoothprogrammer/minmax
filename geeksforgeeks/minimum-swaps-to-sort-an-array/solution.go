@@ -6,33 +6,33 @@ func Solution(arr []int) (swaps int) {
 		return 0
 	}
 
-	var opening int
-	cycle := make([]int, n)
+	var cycle int
+	opening := make([]int, n)
 	for i := 0; i < n; i++ {
 		icurr := i
 		v := arr[icurr]
 		inext := v - 1
 
-		if arr[inext] == cycle[inext] &&
-			cycle[icurr] > cycle[inext] {
-			opening--
+		if arr[inext] == opening[inext] &&
+			opening[icurr] > opening[inext] {
+			cycle--
 		}
 
-		if cycle[icurr] < cycle[inext] {
-			cycle[icurr] = cycle[inext]
+		if opening[icurr] < opening[inext] {
+			opening[icurr] = opening[inext]
 		} else {
-			cycle[inext] = cycle[icurr]
+			opening[inext] = opening[icurr]
 		}
 
-		if cycle[icurr] == 0 {
-			cycle[icurr] = v
-			opening++
+		if opening[icurr] == 0 {
+			opening[icurr] = v
+			cycle++
 		}
 
-		if cycle[inext] == 0 {
-			cycle[inext] = v
+		if opening[inext] == 0 {
+			opening[inext] = v
 		}
 	}
 
-	return n - opening
+	return n - cycle
 }
