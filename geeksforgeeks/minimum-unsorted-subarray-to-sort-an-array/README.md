@@ -5,7 +5,7 @@ such that sorting this subarray makes the whole array sorted.
 
 ## Copyright Notice
 
-This problem is based on [content](https://www.geeksforgeeks.org/minimum-length-unsorted-subarray-sorting-which-makes-the-complete-array-sorted/?ref=ml_lbp)
+This problem is based on [content](https://www.geeksforgeeks.org/minimum-length-unsorted-subarray-sorting-which-makes-the-complete-array-sorted/)
 from [GeeksforGeeks](https://www.geeksforgeeks.org)
 written by GeeksforGeeks
 and subject to [GeeksforGeeks copyright](https://www.geeksforgeeks.org/legal/copyright-information/).
