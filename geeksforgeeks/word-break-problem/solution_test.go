@@ -18,6 +18,7 @@ func TestWordBreakProblem(t *testing.T) {
 		"pinepen":         {"pinepen", []string{"pine pen"}},
 		"pineapple":       {"pineapple", []string{"pineapple", "pine apple"}},
 		"penpineapplepen": {"penpineapplepen", []string{"pen pine applepen", "pen pineapple pen", "pen pine apple pen"}},
+		"penpineapples":   {"penpineapples", nil},
 	}
 
 	for name, tc := range tests {
