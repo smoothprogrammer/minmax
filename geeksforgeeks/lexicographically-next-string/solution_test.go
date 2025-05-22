@@ -3,8 +3,8 @@ package lexicographically_next_string_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/lexicographically-next-string"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/lexicographically-next-string"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestLexicographicallyNextString(t *testing.T) {

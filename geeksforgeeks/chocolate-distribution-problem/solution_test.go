@@ -3,8 +3,8 @@ package chocolate_distribution_problem_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/chocolate-distribution-problem"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/chocolate-distribution-problem"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestChocolateDistributionProblem(t *testing.T) {

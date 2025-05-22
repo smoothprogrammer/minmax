@@ -3,8 +3,8 @@ package shortest_path_in_a_binary_maze_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/shortest-path-in-a-binary-maze"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/shortest-path-in-a-binary-maze"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestShortestPathInABinaryMaze(t *testing.T) {

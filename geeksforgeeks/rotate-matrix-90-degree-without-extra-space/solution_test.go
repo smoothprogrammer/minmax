@@ -3,8 +3,8 @@ package rotate_matrix_90_degree_without_extra_space_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/rotate-matrix-90-degree-without-extra-space"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/rotate-matrix-90-degree-without-extra-space"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestRotateMatrix90DegreeWithoutExtraSpace(t *testing.T) {

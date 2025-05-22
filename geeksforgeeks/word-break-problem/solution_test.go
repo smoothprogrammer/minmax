@@ -3,8 +3,8 @@ package word_break_problem_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/word-break-problem"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/word-break-problem"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestWordBreakProblem(t *testing.T) {

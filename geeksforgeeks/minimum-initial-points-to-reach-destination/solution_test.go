@@ -3,8 +3,8 @@ package minimum_initial_points_to_reach_destination_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/minimum-initial-points-to-reach-destination"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/minimum-initial-points-to-reach-destination"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestMinimumInitialPointsToReachDestination(t *testing.T) {

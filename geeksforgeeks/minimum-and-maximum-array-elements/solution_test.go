@@ -3,8 +3,8 @@ package minimum_and_maximum_array_elements_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/minimum-and-maximum-array-elements"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/minimum-and-maximum-array-elements"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestMinimumAndMaximumArrayElements(t *testing.T) {

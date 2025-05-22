@@ -3,8 +3,8 @@ package minimum_unsorted_subarray_to_sort_an_array_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/minimum-unsorted-subarray-to-sort-an-array"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/minimum-unsorted-subarray-to-sort-an-array"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestMinimumUnsortedSubarrayToSortAnArray(t *testing.T) {

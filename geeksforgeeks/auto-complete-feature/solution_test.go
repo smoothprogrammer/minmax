@@ -3,8 +3,8 @@ package auto_complete_feature_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/auto-complete-feature"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/auto-complete-feature"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestAutoCompleteFeature(t *testing.T) {

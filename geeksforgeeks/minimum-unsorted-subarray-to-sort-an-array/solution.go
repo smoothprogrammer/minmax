@@ -1,6 +1,6 @@
 package minimum_unsorted_subarray_to_sort_an_array
 
-import minmax "github.com/minizilla/minmax/geeksforgeeks/minimum-and-maximum-array-elements"
+import minmax "github.com/smoothprogrammer/minmax/geeksforgeeks/minimum-and-maximum-array-elements"
 
 func Solution(arr []int) (s, e int) {
 	n := len(arr)

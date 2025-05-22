@@ -3,8 +3,8 @@ package find_the_number_of_islands_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/find-the-number-of-islands"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/find-the-number-of-islands"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestFindTheNumberOfIslands(t *testing.T) {

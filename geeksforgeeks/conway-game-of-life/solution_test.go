@@ -3,8 +3,8 @@ package conway_game_of_life_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/conway-game-of-life"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/conway-game-of-life"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestConwayGameOfLife(t *testing.T) {

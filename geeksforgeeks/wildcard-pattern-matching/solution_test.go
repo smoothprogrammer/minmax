@@ -3,8 +3,8 @@ package wildcard_pattern_matching_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/wildcard-pattern-matching"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/wildcard-pattern-matching"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestWildcardPatternMatching(t *testing.T) {

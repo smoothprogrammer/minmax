@@ -3,8 +3,8 @@ package tic_tac_toe_validity_test
 import (
 	"testing"
 
-	sut "github.com/minizilla/minmax/geeksforgeeks/tic-tac-toe-validity"
-	"github.com/minizilla/testr"
+	sut "github.com/smoothprogrammer/minmax/geeksforgeeks/tic-tac-toe-validity"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestTicTacToeValidity(t *testing.T) {

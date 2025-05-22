@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/minizilla/minmax/geeksforgeeks/fibonacci"
-	"github.com/minizilla/testr"
+	"github.com/smoothprogrammer/minmax/geeksforgeeks/fibonacci"
+	"github.com/smoothprogrammer/testr"
 )
 
 func TestFibonacci(t *testing.T) {
